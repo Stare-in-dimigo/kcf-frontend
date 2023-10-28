@@ -28,6 +28,7 @@ export default function Home() {
     return (
         <div className={styles.container}>
             {data && <h1>{data.result}</h1>}
+            <p>by Seungpyo</p>
         </div>
     );
 }
